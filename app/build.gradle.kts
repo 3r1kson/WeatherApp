@@ -50,6 +50,8 @@ dependencies {
     implementation("com.karumi:dexter:6.2.3")
     implementation("com.squareup.retrofit2:retrofit:2.6.2")
     implementation("com.google.code.gson:gson:2.8.4")
+    implementation("com.squareup.retrofit2:converter-gson:2.2.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
